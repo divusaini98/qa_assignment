@@ -6,4 +6,5 @@ import { Component, Input } from '@angular/core';
 })
 export class CharacterComponent {
   @Input() character;
+  @Input() index;
 }

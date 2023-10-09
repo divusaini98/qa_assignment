@@ -1,0 +1,57 @@
+{
+    "valid_planet_test": {
+        "iterations": [
+            {
+                "search": "Hoth",
+                "useButton": true,
+                "name": "Hoth",
+                "population": " unknown ",
+                "climate": " frozen ",
+                "gravity": " 1.1 standard "
+                 
+            },
+            {
+                "search": "Hoth",
+                "useButton": false,
+                "name": "Hoth",
+                "population": " unknown ",
+                "climate": " frozen ",
+                "gravity": " 1.1 standard "
+            },
+            {
+                "search": "naboo",
+                "useButton": true,
+                "name": "Naboo",
+                "population": " 4500000000 ",
+                "climate": " temperate ",
+                "gravity": " 1 standard "
+            },
+            {
+                "search": "naboo",
+                "useButton": false,
+                "name": "Naboo",
+                "population": " 4500000000 ",
+                "climate": " temperate ",
+                "gravity": " 1 standard "
+            }
+        ]
+    },
+
+    "partial_planet_search_test": {
+        "search": "ma",
+        "results": {
+            "count": 3,
+            "data": [
+                {
+                    "name": "Polis Massa"
+                },
+                {
+                    "name": "Ord Mantell"
+                },
+                {
+                    "name": "Malastare"
+                }
+            ]
+        }
+}
+}

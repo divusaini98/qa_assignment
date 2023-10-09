@@ -14,15 +14,15 @@
 
       <div *ngIf="!isLoading">
         <div *ngIf="searchType === 'people'">
-          <div *ngFor="let character of searchResult">
-            <app-character [character]="character"></app-character>
+          <div *ngFor="let character of searchResult; let i = index">
+            <app-character [character]="character" [index]="i+1"></app-character>
             <br>
           </div>
         </div>
 
         <div *ngIf="searchType === 'planets'">
-          <div *ngFor="let planet of searchResult">
-            <app-planet [planet]="planet"></app-planet>
+          <div *ngFor="let planet of searchResult; let i = index">
+            <app-planet [planet]="planet" [index]="i+1"></app-planet>
             <br>
           </div>
         </div>

@@ -1,22 +1,22 @@
-<div class="card">
+<div class="card" attr.data-test-id="planet_card_{{index}}">
   <div class="card-body">
-    <h6 class="card-subtitle mb-2 text-muted">{{planet.name}}</h6>
+    <h6 class="card-subtitle mb-2 text-muted" attr.data-test-id="planet_name_{{index}}">{{planet.name}}</h6>
 
-    <div class="row">
+    <div class="row" attr.data-test-id="population_{{index}}">
       <div class="col-sm-2">Population:</div>
       <div class="col-sm-10">
         {{planet.population}}
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" attr.data-test-id="climate_{{index}}">
       <div class="col-sm-2">Climate:</div>
       <div class="col-sm-10">
         {{planet.climate}}
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" attr.data-test-id="gravity_{{index}}">
       <div class="col-sm-2">Gravity:</div>
       <div class="col-sm-10">
         {{planet.gravity}}

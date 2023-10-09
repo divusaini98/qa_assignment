@@ -1,0 +1,63 @@
+{
+    "valid_character_test": {
+        "iterations": [
+            {
+                "search": "Luke Skywalker",
+                "useButton": true,
+                "name": "Luke Skywalker",
+                "gender": " male ",
+                "dob": " 19BBY ",
+                "eyeColor": " blue ",
+                "skinColor": " fair " 
+            },
+            {
+                "search": "Luke Skywalker",
+                "useButton": false,
+                "name": "Luke Skywalker",
+                "gender": " male ",
+                "dob": " 19BBY ",
+                "eyeColor": " blue ",
+                "skinColor": " fair " 
+            },
+            {
+                "search": "Chewbacca",
+                "useButton": true,
+                "name": "Chewbacca",
+                "gender": " male ",
+                "dob": " 200BBY ",
+                "eyeColor": " blue ",
+                "skinColor": " unknown " 
+            },
+            {
+                "search": "Chewbacca",
+                "useButton": false,
+                "name": "Chewbacca",
+                "gender": " male ",
+                "dob": " 200BBY ",
+                "eyeColor": " blue ",
+                "skinColor": " unknown " 
+            }
+        ]
+    },
+    "partial_character_search_test": {
+        "search": "ru",
+        "results": {
+            "count": 3,
+            "data": [
+                {
+                    "name": "Beru Whitesun lars"
+                },
+                {
+                    "name": "Finis Valorum"
+                },
+                {
+                    "name": "Rugor Nass"
+                }
+            ]
+        }
+    }
+    
+
+
+   
+}
